@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.oracle.java:jre:1.7.0_67">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/oracle/java/jre/1.7.0_67/jre-1.7.0_67.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/oracle/java/jre/1.7.0_67/jre-1.7.0_67-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/oracle/java/jre/1.7.0_67/jre-1.7.0_67-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
