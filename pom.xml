@@ -9,73 +9,39 @@
     <version>1.0-SNAPSHOT</version>
     <name>cve-app</name>
     <url>http://maven.apache.org</url>
-    <properties>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
-    </properties>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.owasp</groupId>
+                <artifactId>dependency-check-maven</artifactId>
+                <version>3.3.2</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>check</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
     <dependencies>
         <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>3.8.1</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.owasp</groupId>
+            <artifactId>dependency-check-maven</artifactId>
+            <version>3.3.2</version>
+            <type>maven-plugin</type>
+        </dependency>
+        <dependency>
             <groupId>org.apache.tomcat</groupId>
-            <artifactId>apache-tomcat</artifactId>
-            <version>6.0.26</version>
-        </dependency>
-        <dependency>
-            <groupId>com.redhat.rhevm.api</groupId>
-            <artifactId>rhevm-api-cli-base</artifactId>
-            <version>0.9-milestone5</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.hadoop</groupId>
-            <artifactId>hadoop-common</artifactId>
-            <version>2.0.0-alpha</version>
-        </dependency>
-        <dependency>
-            <groupId>rubygems</groupId>
-            <artifactId>json</artifactId>
-            <version>1.4.6</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.camel</groupId>
-            <artifactId>camel-core</artifactId>
-            <version>2.12.2</version>
-        </dependency>
-        <dependency>
-            <groupId>org.jenkins-ci.main</groupId>
-            <artifactId>jenkins-core</artifactId>
-            <version>1.550</version>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.jbpm</groupId>
-            <artifactId>jbpm-designer-backend</artifactId>
-            <version>6.0.1.Final</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.cassandra</groupId>
-            <artifactId>cassandra-all</artifactId>
-            <version>1.2.0</version>
+            <artifactId>tomcat-catalina</artifactId>
+            <version>7.0.12</version>
         </dependency>
     </dependencies>
-    <repositories>
-        <repository>
-            <id>maven_atlassian</id>
-            <url>https://packages.atlassian.com/maven-public/</url>
-        </repository>
-        <repository>
-            <id>maven_redhat</id>
-            <url>https://maven.repository.redhat.com/ga/</url>
-        </repository>
-        <repository>
-            <id>maven_alfresco</id>
-            <url>https://artifacts.alfresco.com/nexus/content/repositories/public/</url>
-        </repository>
-        <repository>
-            <id>maven_spring</id>
-            <url>http://repo.spring.io/libs-release/</url>
-        </repository>
-        <repository>
-            <id>maven_geomajas</id>
-            <url>http://maven.geomajas.org/</url>
-        </repository>
-    </repositories>
 </project>

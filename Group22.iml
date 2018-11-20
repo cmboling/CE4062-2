@@ -11,7 +11,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Maven: org.apache.tomcat:apache-tomcat:6.0.26" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat:apache-tomcat:6.0.18" level="project" />
     <orderEntry type="library" name="Maven: com.redhat.rhevm.api:rhevm-api-cli-base:0.9-milestone5" level="project" />
     <orderEntry type="library" name="Maven: com.redhat.rhevm.api:rhevm-api-mock-jaxrs:0.9-milestone5" level="project" />
     <orderEntry type="library" name="Maven: com.redhat.rhevm.api:rhevm-api:0.9-milestone5" level="project" />
