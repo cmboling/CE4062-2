@@ -18,6 +18,14 @@
             <id>spring-release</id>
             <url>http://repo.spring.io/libs-release/</url>
         </repository>
+        <repository>
+            <id>maven-geomajas</id>
+            <url>http://maven.geomajas.org/</url>
+        </repository>
+        <repository>
+            <id>maven-redhat</id>
+            <url>https://maven.repository.redhat.com/ga/</url>
+        </repository>
     </repositories>
     <dependencies>
         <dependency>
@@ -49,6 +57,12 @@
             <artifactId>jenkins-core</artifactId>
             <version>1.550</version>
             <scope>provided</scope>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.jbpm/jbpm-designer-backend -->
+        <dependency>
+            <groupId>org.jbpm</groupId>
+            <artifactId>jbpm-designer-backend</artifactId>
+            <version>6.0.1.Final</version>
         </dependency>
     </dependencies>
 </project>

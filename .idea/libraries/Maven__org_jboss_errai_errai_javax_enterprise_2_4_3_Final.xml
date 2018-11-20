@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.jboss.errai:errai-javax-enterprise:2.4.3.Final">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jboss/errai/errai-javax-enterprise/2.4.3.Final/errai-javax-enterprise-2.4.3.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jboss/errai/errai-javax-enterprise/2.4.3.Final/errai-javax-enterprise-2.4.3.Final-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jboss/errai/errai-javax-enterprise/2.4.3.Final/errai-javax-enterprise-2.4.3.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
