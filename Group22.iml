@@ -103,7 +103,6 @@
     <orderEntry type="library" name="Maven: org.apache.zookeeper:zookeeper:3.4.2" level="project" />
     <orderEntry type="library" name="Maven: org.jboss.netty:netty:3.2.2.Final" level="project" />
     <orderEntry type="library" name="Maven: rubygems:json:1.4.6" level="project" />
-    <orderEntry type="library" name="Maven: com.oracle.java:jre:1.7.0_67" level="project" />
     <orderEntry type="library" name="Maven: org.apache.camel:camel-core:2.12.2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.jenkins-ci.main:jenkins-core:1.550" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.jenkins-ci.main:remoting:2.33" level="project" />
