@@ -26,6 +26,11 @@
             <artifactId>rhevm-api-cli-base</artifactId>
             <version>0.9-milestone5</version>
         </dependency>
-
+        <!-- https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-common -->
+        <dependency>
+            <groupId>org.apache.hadoop</groupId>
+            <artifactId>hadoop-common</artifactId>
+            <version>2.0.0-alpha</version>
+        </dependency>
     </dependencies>
 </project>
