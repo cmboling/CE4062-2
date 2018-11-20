@@ -30,6 +30,10 @@
             <id>maven_spring</id>
             <url>http://repo.spring.io/libs-release/</url>
         </repository>
+        <repository>
+            <id>maven_geomajas</id>
+            <url>http://maven.geomajas.org/</url>
+        </repository>
     </repositories>
     <dependencies>
         <dependency>
