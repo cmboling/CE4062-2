@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: ca.juliusdavies:not-yet-commons-ssl:0.3.17">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/ca/juliusdavies/not-yet-commons-ssl/0.3.17/not-yet-commons-ssl-0.3.17.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/ca/juliusdavies/not-yet-commons-ssl/0.3.17/not-yet-commons-ssl-0.3.17-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/ca/juliusdavies/not-yet-commons-ssl/0.3.17/not-yet-commons-ssl-0.3.17-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

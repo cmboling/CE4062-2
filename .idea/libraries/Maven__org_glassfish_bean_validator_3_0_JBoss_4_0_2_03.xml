@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.glassfish:bean-validator:3.0-JBoss-4.0.2_03">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/glassfish/bean-validator/3.0-JBoss-4.0.2_03/bean-validator-3.0-JBoss-4.0.2_03.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/glassfish/bean-validator/3.0-JBoss-4.0.2_03/bean-validator-3.0-JBoss-4.0.2_03-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/glassfish/bean-validator/3.0-JBoss-4.0.2_03/bean-validator-3.0-JBoss-4.0.2_03-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

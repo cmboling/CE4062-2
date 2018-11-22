@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.jboss.eap:wildfly-web-common:7.1.0.GA-redhat-11">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jboss/eap/wildfly-web-common/7.1.0.GA-redhat-11/wildfly-web-common-7.1.0.GA-redhat-11.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jboss/eap/wildfly-web-common/7.1.0.GA-redhat-11/wildfly-web-common-7.1.0.GA-redhat-11-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jboss/eap/wildfly-web-common/7.1.0.GA-redhat-11/wildfly-web-common-7.1.0.GA-redhat-11-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
