@@ -55,38 +55,38 @@
     <dependencies>
         <dependency>
             <groupId>org.apache.tomcat</groupId>
-            <artifactId>catalina</artifactId>
-            <version>6.0.26</version>
+            <artifactId>tomcat-catalina</artifactId>
+            <version>7.0.55</version>
             <scope>provided</scope>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-common -->
         <dependency>
             <groupId>org.apache.hadoop</groupId>
             <artifactId>hadoop-common</artifactId>
-            <version>2.0.0-alpha</version>
+            <version>2.0.1-alpha</version>
         </dependency>
         <dependency>
             <groupId>org.apache.camel</groupId>
             <artifactId>camel-core</artifactId>
-            <version>2.12.2</version>
+            <version>2.12.3</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.jenkins-ci.main/jenkins-core -->
         <dependency>
             <groupId>org.jenkins-ci.main</groupId>
             <artifactId>jenkins-core</artifactId>
-            <version>1.550</version>
+            <version>1.551</version>
             <scope>provided</scope>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.jbpm/jbpm-designer-backend -->
         <dependency>
             <groupId>org.jbpm</groupId>
             <artifactId>jbpm-designer-backend</artifactId>
-            <version>6.0.1.Final</version>
+            <version>6.3.0.Beta1</version>
         </dependency>
         <dependency>
             <groupId>org.apache.cassandra</groupId>
             <artifactId>cassandra-all</artifactId>
-            <version>1.2.0</version>
+            <version>2.1.4</version>
         </dependency>
         <dependency>
             <groupId>org.jenkins-ci.plugins</groupId>
@@ -97,62 +97,62 @@
         <dependency>
             <groupId>org.apache.solr</groupId>
             <artifactId>solr-core</artifactId>
-            <version>6.6.2</version>
+            <version>6.6.3</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.wildfly/wildfly-undertow -->
         <dependency>
             <groupId>org.wildfly</groupId>
             <artifactId>wildfly-undertow</artifactId>
-            <version>9.0.0.CR1</version>
+            <version>9.0.0.CR2</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.apache.directory.studio/org.apache.directory.server.core.api -->
         <dependency>
             <groupId>org.apache.directory.studio</groupId>
             <artifactId>org.apache.directory.server.core.api</artifactId>
-            <version>2.0.0-M6</version>
+            <version>2.0.0-M10</version>
             <scope>provided</scope>
         </dependency>
         <!-- https://mvnrepository.com/artifact/struts/struts -->
         <dependency>
-            <groupId>struts</groupId>
-            <artifactId>struts</artifactId>
-            <version>1.2.8</version>
+            <groupId>org.apache.struts</groupId>
+            <artifactId>struts2-core</artifactId>
+            <version>2.0.5</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/com.jcraft/jsch -->
         <dependency>
             <groupId>com.jcraft</groupId>
             <artifactId>jsch</artifactId>
-            <version>0.1.53</version>
+            <version>0.1.54</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.eclipse.jetty/jetty-maven-plugin -->
         <dependency>
             <groupId>org.eclipse.jetty</groupId>
             <artifactId>jetty-maven-plugin</artifactId>
-            <version>9.3.0.M1</version>
+            <version>9.4.0.M0</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.apache.tomcat/tomcat -->
         <dependency>
             <groupId>org.apache.tomcat</groupId>
             <artifactId>tomcat</artifactId>
-            <version>9.0.0.M11</version>
+            <version>9.0.0.M17</version>
             <type>pom</type>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.apache.struts/struts2-core -->
         <dependency>
             <groupId>org.apache.struts</groupId>
             <artifactId>struts2-core</artifactId>
-            <version>2.1.8.1</version>
+            <version>2.2.1</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/com.squareup.okhttp3/okhttp -->
         <dependency>
             <groupId>org.glassfish.main.common</groupId>
             <artifactId>glassfish-mbeanserver</artifactId>
-            <version>3.1.2</version>
+            <version>4.0-b33</version>
         </dependency>
         <dependency>
             <groupId>org.apache.camel</groupId>
             <artifactId>camel-core</artifactId>
-            <version>2.18.0</version>
+            <version>2.18.2</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.cloudfoundry.identity/cloudfoundry-identity-uaa -->
         <!--<dependency>-->
@@ -177,93 +177,93 @@
         <dependency>
             <groupId>com.squareup.okhttp</groupId>
             <artifactId>okhttp</artifactId>
-            <version>2.7.2</version>
+            <version>2.7.4</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.apache.ranger/ranger-plugins-common -->
         <dependency>
             <groupId>org.apache.ranger</groupId>
             <artifactId>ranger-plugins-common</artifactId>
-            <version>0.7.0</version>
+            <version>0.7.1</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.cloudfoundry.identity/cloudfoundry-identity-server -->
         <dependency>
             <groupId>org.cloudfoundry.identity</groupId>
             <artifactId>cloudfoundry-identity-server</artifactId>
-            <version>4.19.0</version>
+            <version>4.19.2</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.apache.ode/ode-utils -->
         <dependency>
             <groupId>org.apache.ode</groupId>
             <artifactId>ode-utils</artifactId>
-            <version>1.3.2</version>
+            <version>1.3.3</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.apache.tomee/openejb-core -->
         <dependency>
             <groupId>org.apache.tomee</groupId>
             <artifactId>openejb-core</artifactId>
-            <version>7.0.4</version>
+            <version>7.0.5</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.jenkins-ci.main/jenkins-core -->
         <dependency>
             <groupId>org.jenkins-ci.main</groupId>
             <artifactId>jenkins-core</artifactId>
-            <version>2.31</version>
+            <version>2.32.2</version>
             <scope>provided</scope>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.apache.flex.blazeds/flex-messaging-core -->
         <dependency>
             <groupId>org.apache.flex.blazeds</groupId>
             <artifactId>flex-messaging-core</artifactId>
-            <version>4.7.2</version>
+            <version>4.7.3</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.apache.cxf.fediz/fediz-core -->
         <dependency>
             <groupId>org.apache.cxf.fediz</groupId>
             <artifactId>fediz-core</artifactId>
-            <version>1.3.2</version>
+            <version>1.4.1</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.apache.struts/struts2-core -->
         <dependency>
             <groupId>org.apache.struts</groupId>
             <artifactId>struts2-core</artifactId>
-            <version>2.5.10</version>
+            <version>2.5.14</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.jboss.eap/wildfly-undertow -->
         <dependency>
             <groupId>org.jboss.eap</groupId>
             <artifactId>wildfly-undertow</artifactId>
-            <version>7.1.0.GA-redhat-11</version>
+            <version>7.1.1.GA-redhat-2</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot</artifactId>
-            <version>1.5.9.RELEASE</version>
+            <version>1.5.10.RELEASE</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.apache.hive/hive -->
         <dependency>
             <groupId>org.apache.hive</groupId>
             <artifactId>hive</artifactId>
-            <version>0.13.0</version>
+            <version>2.3.3</version>
             <type>pom</type>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.jenkins-ci.plugins/mailer -->
         <dependency>
             <groupId>org.jenkins-ci.plugins</groupId>
             <artifactId>mailer</artifactId>
-            <version>1.2</version>
+            <version>1.21</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.springframework/spring-web -->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-web</artifactId>
-            <version>5.0.4.RELEASE</version>
+            <version>5.0.5.RELEASE</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.bouncycastle/bcprov-ext-jdk15on -->
         <dependency>
             <groupId>org.bouncycastle</groupId>
             <artifactId>bcprov-ext-jdk15on</artifactId>
-            <version>1.51</version>
+            <version>1.59</version>
         </dependency>
 
     </dependencies>

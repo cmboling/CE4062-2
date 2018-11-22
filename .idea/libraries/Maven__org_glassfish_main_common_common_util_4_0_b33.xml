@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.glassfish.main.common:common-util:4.0-b33">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/glassfish/main/common/common-util/4.0-b33/common-util-4.0-b33.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/glassfish/main/common/common-util/4.0-b33/common-util-4.0-b33-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/glassfish/main/common/common-util/4.0-b33/common-util-4.0-b33-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
