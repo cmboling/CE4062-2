@@ -131,7 +131,7 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-core:2.5.6.SEC03" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-aop:2.5.6.SEC03" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: xpp3:xpp3:1.1.4c" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: javax.servlet:jstl:1.1.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet:jstl:1.1.0" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:jcl-over-slf4j:1.7.7" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.slf4j:log4j-over-slf4j:1.7.7" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: com.sun.xml.txw2:txw2:20110809" level="project" />
@@ -560,22 +560,6 @@
     <orderEntry type="library" name="Maven: org.glassfish.hk2:config-types:1.1.14" level="project" />
     <orderEntry type="library" name="Maven: org.glassfish.main.external:jmxremote_optional-repackaged:3.1.2" level="project" />
     <orderEntry type="library" name="Maven: org.glassfish.external:management-api:3.1.0-b001" level="project" />
-    <orderEntry type="library" name="Maven: org.cloudfoundry.identity:cloudfoundry-identity-uaa:2.4.1" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.security:spring-security-jwt:1.0.1.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.security:spring-security-config:4.0.1.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.cloudfoundry.identity:cloudfoundry-identity-common:2.4.1" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.security.oauth:spring-security-oauth:2.0.7.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-expression:4.1.6.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: com.googlecode.flyway:flyway-core:2.3.1" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.aspectj:aspectjweaver:1.6.9" level="project" />
-    <orderEntry type="library" name="Maven: org.cloudfoundry.identity:cloudfoundry-identity-scim:2.4.1" level="project" />
-    <orderEntry type="library" name="Maven: org.cloudfoundry.identity:cloudfoundry-identity-login:2.4.1" level="project" />
-    <orderEntry type="library" name="Maven: org.thymeleaf.extras:thymeleaf-extras-springsecurity3:2.1.1.RELEASE" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.springframework.retry:spring-retry:1.0.2.RELEASE" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: postgresql:postgresql:9.1-901.jdbc3" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-jdbc:7.0.61" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-juli:7.0.61" level="project" />
-    <orderEntry type="library" name="Maven: cglib:cglib:2.2.2" level="project" />
     <orderEntry type="library" name="Maven: com.squareup.okhttp:okhttp:2.7.2" level="project" />
     <orderEntry type="library" name="Maven: com.squareup.okio:okio:1.6.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.ranger:ranger-plugins-common:0.7.0" level="project" />
@@ -597,6 +581,9 @@
     <orderEntry type="library" name="Maven: org.cloudfoundry.identity:cloudfoundry-identity-model:4.19.0" level="project" />
     <orderEntry type="library" name="Maven: org.cloudfoundry.identity:cloudfoundry-identity-metrics-data:4.19.0" level="project" />
     <orderEntry type="library" name="Maven: javax.validation:validation-api:1.0.0.GA" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.security:spring-security-config:4.2.6.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-jdbc:8.5.23" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-juli:8.5.23" level="project" />
     <orderEntry type="library" name="Maven: com.jayway.jsonpath:json-path:2.4.0" level="project" />
     <orderEntry type="library" name="Maven: net.minidev:json-smart:2.3" level="project" />
     <orderEntry type="library" name="Maven: net.minidev:accessors-smart:1.2" level="project" />
@@ -606,10 +593,12 @@
     <orderEntry type="library" name="Maven: com.github.jai-imageio:jai-imageio-core:1.3.1" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-beans:4.3.17.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context:4.3.17.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-expression:4.3.17.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-tx:4.3.17.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-jdbc:4.3.17.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context-support:4.3.17.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.security:spring-security-core:4.2.6.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.security:spring-security-jwt:1.0.8.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.security:spring-security-openid:4.2.6.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.openid4java:openid4java-nodeps:0.9.6" level="project" />
     <orderEntry type="library" name="Maven: net.jcip:jcip-annotations:1.0" level="project" />
