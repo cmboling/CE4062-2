@@ -68,7 +68,7 @@
         <dependency>
             <groupId>org.apache.camel</groupId>
             <artifactId>camel-core</artifactId>
-            <version>2.12.3</version>
+            <version>2.24.0</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.jenkins-ci.main/jenkins-core -->
         <dependency>
@@ -152,7 +152,7 @@
         <dependency>
             <groupId>org.apache.camel</groupId>
             <artifactId>camel-core</artifactId>
-            <version>2.18.2</version>
+            <version>2.24.0</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.cloudfoundry.identity/cloudfoundry-identity-uaa -->
         <!--<dependency>-->
